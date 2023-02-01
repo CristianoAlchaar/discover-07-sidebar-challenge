@@ -12,9 +12,14 @@
 </head>
 <body>
     <aside>
-        <span class="icon-container">
-            <img src='/assets/menu.svg' alt="Botão do Menu">
-        </span>
+        <div id="aside-header">
+            <span class="display" id="logo">
+                <img src="/assets/logo.svg" alt="Veterinária">
+            </span>
+            <span class="icon-container" id="toggle-menu-button">
+                <img src='/assets/menu.svg' alt="Botão do Menu">
+            </span>
+        </div>
         <nav>
             <ul>
                 <li>
@@ -49,6 +54,13 @@
                 </li>
             </ul>
             <footer>
+                <div class="display" id="profile-container">
+                    <img src="/assets/photo.jpg" alt="">
+                    <div id="profile-data-container">
+                        <span>Eleanor Pena</span>
+                        <span>Veterinária</span>
+                    </div>
+                </div>
                 <i>
                     <img src="/assets/log-out.svg" alt="Botão de Sair">
                 </i>
@@ -58,5 +70,6 @@
     <main>
         <h1>Dashboard</h1>
     </main>
+    <script src="/src/script.js" />
 </body>
 </html>

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
 }
   
 :root {
@@ -15,7 +16,7 @@
 body {
     height: 100vh;
     display: flex;
-    font-family: 'Poppins', 'Times New Roman', Times, serif;
+    font-family: 'Poppins', 'Times New Roman', Times, serif;  
 }
 
 ul{
@@ -27,6 +28,21 @@ aside{
     width: 4.875rem;
     background-color: var(--green);
     padding-top: 25px;
+    transition: width ease 0.5s;
+}
+
+div#aside-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#aside-header span#logo{
+    width: 50%;
+    display: flex;
+    padding-left: 0.5rem;
+    cursor: pointer;
 }
 
 nav{
@@ -68,6 +84,13 @@ main h1{
     transition: background-color 0.9s;
 }
 
+aside nav footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
 aside nav footer i{
     width: 4.9375rem;
     height: 3.75rem;
@@ -82,3 +105,49 @@ aside nav footer i:hover{
     filter: brightness(0.8);
     transition: filter 0.9s;
 }
+
+aside nav footer div#profile-container{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.3rem;
+    padding-left: 0.2rem;
+    background-color: var(--light-green);
+}
+
+aside nav footer div#profile-container img{
+    width: 2.8125rem;
+    height: 2.8125rem;
+    border-radius: 12px;
+}
+
+div#profile-container div#profile-data-container{
+    color: var(--text-color);
+    height: 3.75rem;
+    fontweight: bold;
+    font-size: 0.8rem;
+    lineheight: 1.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div#profile-container div#profile-data-container span:first-child{
+    line-height: 1.375rem;
+    font-size: 1rem;
+}
+
+.expanded-aside {
+    width: 15.625rem;
+    transition: width ease 2s;
+}
+
+.new-margin-toggle-button{
+    margin: 0.5rem 0.5rem 0.5rem auto !important;
+}
+
+.display{
+    display: none !important;
+}
+
