@@ -53,6 +53,25 @@ nav{
     justify-content: space-between;
 }
 
+.nav-item-expanded{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 0.3rem;
+    border-radius: 12px;
+    line-height: 1.375;
+}
+
+.nav-item-expanded span{
+    flex-grow: 1;
+}
+
+.nav-item-expanded:hover{
+    background-color: var(--light-green);
+    transition: background-color 0.6s;
+} 
+
 main{
     height: 100vh;
     flex-grow: 1;
@@ -81,7 +100,7 @@ main h1{
 
 .icon-container:hover{
     background-color: var(--light-gray);
-    transition: background-color 0.9s;
+    transition: background-color 0.8s;
 }
 
 aside nav footer{
@@ -151,3 +170,6 @@ div#profile-container div#profile-data-container span:first-child{
     display: none !important;
 }
 
+.modified-when-expanded-icon-container-hover-bg-color:hover{
+    background-color: transparent !important;
+}
