@@ -150,6 +150,7 @@ div#profile-container div#profile-data-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    visibility: hidden;
 }
 
 div#profile-container div#profile-data-container span:first-child{
@@ -172,4 +173,8 @@ div#profile-container div#profile-data-container span:first-child{
 
 .modified-when-expanded-icon-container-hover-bg-color:hover{
     background-color: transparent !important;
+}
+
+.set-visibility{
+    visibility: visible!important;
 }
