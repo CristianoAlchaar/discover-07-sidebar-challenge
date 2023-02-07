@@ -8,4 +8,4 @@ Project developed with __HTML__, __CSS__ e __JavaScript__
 
 Challenge made for "Discover" / [@Rocketseat](https://github.com/Rocketseat)
 
-By [Cristiano Alchaa da Silva](https://github.com/CristianoAlchaar)
+By [Cristiano Alchaar da Silva](https://github.com/CristianoAlchaar)
