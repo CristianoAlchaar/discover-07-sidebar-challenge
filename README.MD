@@ -6,6 +6,8 @@
 
 Project developed with __HTML__, __CSS__ e __JavaScript__
 
+[Deploy's link](https://cristianoalchaar.github.io/discover-07-sidebar-challenge/)
+
 Challenge made for "Discover" / [@Rocketseat](https://github.com/Rocketseat)
 
 By [Cristiano Alchaar da Silva](https://github.com/CristianoAlchaar)
